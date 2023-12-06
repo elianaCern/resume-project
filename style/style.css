@@ -101,7 +101,7 @@ background-color: rgb(249, 86, 86);
 .photo {
     flex: 1;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
