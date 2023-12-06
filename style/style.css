@@ -72,6 +72,9 @@ background-color: rgb(249, 86, 86);
     padding: 3px;
 }
 
+.bi-linkedin , .bi-github {
+    color: #9a9ea7;
+}
 .profile-container {
     display: flex;
     min-height: 250px;
