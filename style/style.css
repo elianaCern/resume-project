@@ -62,8 +62,10 @@ background-color: rgb(249, 86, 86);
 
 .box-links {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 4px; 
+    justify-content: space-between;
+    margin-bottom: 6px; 
+    margin-right: 4px;
+    width: 60px;
 }
 
 .box-links a {
