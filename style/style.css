@@ -114,7 +114,8 @@ background-color: rgb(249, 86, 86);
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 4rem;
+    font-weight: 700;
     font-family: "Poppins",sans-serif;
 }
 p {
