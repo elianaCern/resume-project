@@ -154,12 +154,8 @@ p {
   background-color: rgb(255, 196, 85);
 }
 
-.resume-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 60px;
+.bgr-orange {
+  background-color: rgb(255, 117, 74);
 }
 
 .text-container {
@@ -174,18 +170,6 @@ p {
 }
 
 .resume-box-2 {
-  flex: 4;
-  display: flex;
-}
-
-.certificate-box {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-}
-
-.certificate-box-2 {
   flex: 4;
   display: flex;
 }
