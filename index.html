@@ -155,13 +155,13 @@
             class="accordion-header"
             data-bs-toggle="collapse"
             href="#collapseExample"
-            onclick="toggleAccordion(1)"
+            onclick="toggleAccordion(3)"
           >
             <div class="title">
               <h3>Portfolio</h3>
             </div>
             <div class="arrow-wrapper">
-              <i class="bi bi-chevron-down" id="arrow1"></i>
+              <i class="bi bi-chevron-down" id="arrow3"></i>
             </div>
           </div>
           <div class="collapse" id="collapseExample">
@@ -181,17 +181,42 @@
         </div>
       </div>
 
+      <!--Contacts-->
+      <div class="page-wraper">
+        <div class="icon-container bgr-red">
+          <i class="bi bi-envelope menu-icons"></i>
+        </div>
+        <div class="text-container">
+          <div
+            class="accordion-header"
+            data-bs-toggle="collapse"
+            href="#collapseExample"
+            onclick="toggleAccordion(4)"
+          >
+            <div class="title">
+              <h3>Contacts</h3>
+            </div>
+            <div class="arrow-wrapper">
+              <i class="bi bi-chevron-down" id="arrow4"></i>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample">
+            <div class="accordion-content">
+              Some placeholder content for the collapse component. This panel is
+              hidden by default but revealed when the user activates the
+              relevant trigger.
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                reprehenderit, incidunt atque beatae consequatur, accusantium
+                eligendi, officia adipisci nostrum officiis delectus quasi
+                voluptatibus rerum blanditiis? Voluptate repellat veritatis quia
+                mollitia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <script>
-      function toggleAccordion(item) {
-        var arrow = document.getElementById("arrow" + item);
-        if (arrow.classList.contains("bi-chevron-down")) {
-          arrow.classList.replace("bi-chevron-down", "bi-chevron-up");
-        } else {
-          arrow.classList.replace("bi-chevron-up", "bi-chevron-down");
-        }
-      }
-    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
