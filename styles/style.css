@@ -110,6 +110,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 50px;
 }
 
 .title-container {
@@ -121,8 +122,11 @@ a:hover {
 }
 
 .img {
-  width: 150px;
-  border-radius: 100px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-image: url("../images/profile.jpeg");
+  background-size: cover;
 }
 
 h1 {
@@ -165,8 +169,8 @@ p {
 }
 
 .bgr-red {
-  background-color: rgb(249, 86, 86);;
-} 
+  background-color: rgb(249, 86, 86);
+}
 
 .text-container {
   width: 100%;
@@ -198,7 +202,7 @@ p {
 .accordion {
   border: 1px solid #ccc;
   width: 100%;
-} 
+}
 
 .accordion-header {
   display: flex;
