@@ -27,7 +27,7 @@
       <div class="header-line-fifth"></div>
     </div>
     <!-- main conntent -->
-    <div class="page-wraper">
+    <div class="main-page-wraper">
       <!-- social media links -->
       <div class="top-panel">
         <div class="box-links">
@@ -69,18 +69,18 @@
         </div>
       </div>
       <!-- Resume -->
-      <div class="page-wraper-second">
-        <div class="resume-icon-container bgr-blue">
+      <div class="page-wraper">
+        <div class="icon-container bgr-blue">
             <i class="bi bi-list menu-icons"></i>
         </div>
-        <div class="resume-text-container">
+        <div class="text-container">
           <div
             class="accordion-header"
             data-bs-toggle="collapse"
             href="#collapseExample"
             onclick="toggleAccordion(1)"
           >
-            <div class="resume-title">
+            <div class="title">
               <h3>Resume</h3>
             </div>
             <div class="arrow-wrapper">
@@ -104,37 +104,43 @@
         </div>
       </div>
 
-      <!-- Certificate -->
-      <div class="page-wraper-second">
-        <div class="certificate-icon-container">
-          <div class="certificate-icon">
-            <i class="bi bi-clipboard-check menu-icons"></i>
-          </div>
-        </div>
-        <div class="resume-text-container">
-          <div class="accordion-header" onclick="toggleAccordion(2)">
-            <div class="resume-title">
-              <h3>Certificate</h3>
-            </div>
-            <div class="arrow-wrapper">
-              <i class="bi bi-chevron-down"></i>
-            </div>
-          </div>
-          <div class="accordion-content" id="accordionContent2">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Necessitatibus praesentium neque sequi. Vero ab molestias neque.
-              Esse, voluptate ipsam modi, exercitationem numquam repellat fuga
-              voluptatem dolore animi eveniet expedita sed? Lorem ipsum, dolor
-              sit amet consectetur adipisicing elit. Eaque distinctio laudantium
-              error eveniet molestias maiores consequatur mollitia, ut enim
-              illum impedit rem accusantium, repellendus doloribus a dolores
-              tempora accusamus unde!
-            </p>
-          </div>
-        </div>
+<!-- Certificate -->
+
+<div class="page-wraper">
+  <div class="icon-container bgr-yellow">
+      <i class="bi bi-clipboard-check menu-icons"></i>
+  </div>
+  <div class="text-container">
+    <div
+      class="accordion-header"
+      data-bs-toggle="collapse"
+      href="#collapseExample"
+      onclick="toggleAccordion(2)"
+    >
+      <div class="title">
+        <h3>Certificates</h3>
+      </div>
+      <div class="arrow-wrapper">
+        <i class="bi bi-chevron-down" id="arrow2"></i>
       </div>
     </div>
+    <div class="collapse" id="collapseExample">
+      <div class="accordion-content">
+        Some placeholder content for the collapse component. This panel is
+        hidden by default but revealed when the user activates the
+        relevant trigger.
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+          reprehenderit, incidunt atque beatae consequatur, accusantium
+          eligendi, officia adipisci nostrum officiis delectus quasi
+          voluptatibus rerum blanditiis? Voluptate repellat veritatis quia
+          mollitia.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <script>
       function toggleAccordion(item) {
