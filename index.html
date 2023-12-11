@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
     <link rel="stylesheet" href="styles/style.css" />
-    
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -17,10 +17,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.css"
       rel="stylesheet"
     />
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
+
     <script src="scripts/javascript.js"></script>
   </head>
   <body class="body-wraper">
-
     <!-- top-line -->
     <div class="header">
       <div class="header-line-first"></div>
@@ -31,7 +32,6 @@
     </div>
     <!-- main conntent -->
     <div class="main-page-wraper">
-
       <!-- social media links -->
       <div class="top-panel">
         <div class="box-links">
@@ -57,165 +57,178 @@
             <i class="bi bi-person menu-icons"></i>
           </div>
         </div>
-
         <div class="profile-box-2">
-          <div class="photo">
-            <span class="img"></span>
-          </div>
-          <div class="title-container">
-            <div>
-              <h1>
-                <strong>Eliana Černevič</strong>
-              </h1>
-              <p>QA tester</p>
+          <div class="profile-child-1">
+            <div class="photo">
+              <span class="img"></span>
+            </div>
+            <div class="title-container">
+              <div>
+                <h1>
+                  <strong>Eliana Černevič</strong>
+                </h1>
+                <p class="p-title">QA tester | ISTQB certified</p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <!-- Resume -->
-      <div class="page-wraper">
-        <div class="icon-container bgr-blue">
-            <i class="bi bi-list menu-icons"></i>
-        </div>
-        <div class="text-container">
-          <div
-            class="accordion-header"
-            data-bs-toggle="collapse"
-            href="#collapse-container-1"
-            onclick="toggleAccordion(1)"
-          >
-            <div class="title">
-              <h3>Resume</h3>
-            </div>
-            <div class="arrow-wrapper">
-              <i class="bi bi-chevron-down" id="arrow1"></i>
-            </div>
-          </div>
-          <div class="collapse" id="collapse-container-1">
-            <div class="accordion-content">
-              Some placeholder content for the collapse component. This panel is
-              hidden by default but revealed when the user activates the
-              relevant trigger.
+          <div class="profile-child-2">
+            <div class="divider-container"></div>
+            <div class="greetings-container">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                reprehenderit, incidunt atque beatae consequatur, accusantium
-                eligendi, officia adipisci nostrum officiis delectus quasi
-                voluptatibus rerum blanditiis? Voluptate repellat veritatis quia
-                mollitia.
+                Welcome to my portfolio! I am a QA tester and I'm looking for
+                new job position. Here, you will be able to learn more about my
+                skills and experiences as well as get to know me as a person.
               </p>
             </div>
           </div>
         </div>
-      </div>
-
-<!-- Certificates -->
-<div class="page-wraper">
-  <div class="icon-container bgr-yellow">
-      <i class="bi bi-clipboard-check menu-icons"></i>
-  </div>
-  <div class="text-container">
-    <div
-      class="accordion-header"
-      data-bs-toggle="collapse"
-      href="#collapse-container-2"
-      onclick="toggleAccordion(2)"
-    >
-      <div class="title">
-        <h3>Certificates</h3>
-      </div>
-      <div class="arrow-wrapper">
-        <i class="bi bi-chevron-down" id="arrow2"></i>
       </div>
     </div>
-    <div class="collapse" id="collapse-container-2">
-      <div class="accordion-content">
-        Some placeholder content for the collapse component. This panel is
-        hidden by default but revealed when the user activates the
-        relevant trigger.
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-          reprehenderit, incidunt atque beatae consequatur, accusantium
-          eligendi, officia adipisci nostrum officiis delectus quasi
-          voluptatibus rerum blanditiis? Voluptate repellat veritatis quia
-          mollitia.
-        </p>
+
+    <!-- Resume -->
+    <div class="page-wraper">
+      <div class="icon-container bgr-blue">
+        <i class="bi bi-list menu-icons"></i>
+      </div>
+      <div class="text-container">
+        <div
+          class="accordion-header"
+          data-bs-toggle="collapse"
+          href="#collapse-container-1"
+          onclick="toggleAccordion(1)"
+        >
+          <div class="title">
+            <h3>Resume</h3>
+          </div>
+          <div class="arrow-wrapper">
+            <i class="bi bi-chevron-down" id="arrow1"></i>
+          </div>
+        </div>
+        <div class="collapse" id="collapse-container-1">
+          <div class="accordion-content">
+            Some placeholder content for the collapse component. This panel is
+            hidden by default but revealed when the user activates the relevant
+            trigger.
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              reprehenderit, incidunt atque beatae consequatur, accusantium
+              eligendi, officia adipisci nostrum officiis delectus quasi
+              voluptatibus rerum blanditiis? Voluptate repellat veritatis quia
+              mollitia.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!--Portfolio-->
-<div class="page-wraper">
-        <div class="icon-container bgr-orange">
-          <i class="bi bi-folder menu-icons"></i>
-        </div>
-        <div class="text-container">
-          <div
-            class="accordion-header"
-            data-bs-toggle="collapse"
-            href="#collapse-container-3"
-            onclick="toggleAccordion(3)"
-          >
-            <div class="title">
-              <h3>Portfolio</h3>
-            </div>
-            <div class="arrow-wrapper">
-              <i class="bi bi-chevron-down" id="arrow3"></i>
-            </div>
+    <!-- Certificates -->
+    <div class="page-wraper">
+      <div class="icon-container bgr-yellow">
+        <i class="bi bi-clipboard-check menu-icons"></i>
+      </div>
+      <div class="text-container">
+        <div
+          class="accordion-header"
+          data-bs-toggle="collapse"
+          href="#collapse-container-2"
+          onclick="toggleAccordion(2)"
+        >
+          <div class="title">
+            <h3>Certificates</h3>
           </div>
-          <div class="collapse" id="collapse-container-3">
-            <div class="accordion-content">
-              Some placeholder content for the collapse component. This panel is
-              hidden by default but revealed when the user activates the
-              relevant trigger.
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                reprehenderit, incidunt atque beatae consequatur, accusantium
-                eligendi, officia adipisci nostrum officiis delectus quasi
-                voluptatibus rerum blanditiis? Voluptate repellat veritatis quia
-                mollitia.
-              </p>
-            </div>
+          <div class="arrow-wrapper">
+            <i class="bi bi-chevron-down" id="arrow2"></i>
+          </div>
+        </div>
+        <div class="collapse" id="collapse-container-2">
+          <div class="accordion-content">
+            Some placeholder content for the collapse component. This panel is
+            hidden by default but revealed when the user activates the relevant
+            trigger.
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              reprehenderit, incidunt atque beatae consequatur, accusantium
+              eligendi, officia adipisci nostrum officiis delectus quasi
+              voluptatibus rerum blanditiis? Voluptate repellat veritatis quia
+              mollitia.
+            </p>
           </div>
         </div>
       </div>
+    </div>
 
-      <!--Contacts-->
-      <div class="page-wraper">
-        <div class="icon-container bgr-red">
-          <i class="bi bi-envelope menu-icons"></i>
-        </div>
-        <div class="text-container">
-          <div
-            class="accordion-header"
-            data-bs-toggle="collapse"
-            href="#collapse-container-4"
-            onclick="toggleAccordion(4)"
-          >
-            <div class="title">
-              <h3>Contacts</h3>
-            </div>
-            <div class="arrow-wrapper">
-              <i class="bi bi-chevron-down" id="arrow4"></i>
-            </div>
+    <!--Portfolio-->
+    <div class="page-wraper">
+      <div class="icon-container bgr-orange">
+        <i class="bi bi-folder menu-icons"></i>
+      </div>
+      <div class="text-container">
+        <div
+          class="accordion-header"
+          data-bs-toggle="collapse"
+          href="#collapse-container-3"
+          onclick="toggleAccordion(3)"
+        >
+          <div class="title">
+            <h3>Portfolio</h3>
           </div>
-          <div class="collapse" id="collapse-container-4">
-            <div class="accordion-content">
-              Some placeholder content for the collapse component. This panel is
-              hidden by default but revealed when the user activates the
-              relevant trigger.
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                reprehenderit, incidunt atque beatae consequatur, accusantium
-                eligendi, officia adipisci nostrum officiis delectus quasi
-                voluptatibus rerum blanditiis? Voluptate repellat veritatis quia
-                mollitia.
-              </p>
-            </div>
+          <div class="arrow-wrapper">
+            <i class="bi bi-chevron-down" id="arrow3"></i>
+          </div>
+        </div>
+        <div class="collapse" id="collapse-container-3">
+          <div class="accordion-content">
+            Some placeholder content for the collapse component. This panel is
+            hidden by default but revealed when the user activates the relevant
+            trigger.
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              reprehenderit, incidunt atque beatae consequatur, accusantium
+              eligendi, officia adipisci nostrum officiis delectus quasi
+              voluptatibus rerum blanditiis? Voluptate repellat veritatis quia
+              mollitia.
+            </p>
           </div>
         </div>
       </div>
+    </div>
+
+    <!--Contacts-->
+    <div class="page-wraper">
+      <div class="icon-container bgr-red">
+        <i class="bi bi-envelope menu-icons"></i>
+      </div>
+      <div class="text-container">
+        <div
+          class="accordion-header"
+          data-bs-toggle="collapse"
+          href="#collapse-container-4"
+          onclick="toggleAccordion(4)"
+        >
+          <div class="title">
+            <h3>Contacts</h3>
+          </div>
+          <div class="arrow-wrapper">
+            <i class="bi bi-chevron-down" id="arrow4"></i>
+          </div>
+        </div>
+        <div class="collapse" id="collapse-container-4">
+          <div class="accordion-content">
+            Some placeholder content for the collapse component. This panel is
+            hidden by default but revealed when the user activates the relevant
+            trigger.
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              reprehenderit, incidunt atque beatae consequatur, accusantium
+              eligendi, officia adipisci nostrum officiis delectus quasi
+              voluptatibus rerum blanditiis? Voluptate repellat veritatis quia
+              mollitia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
