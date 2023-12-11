@@ -138,9 +138,9 @@ a:hover {
 }
 
 .title-container div {
-display: flex;
-flex-direction: column;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
@@ -172,8 +172,8 @@ p {
 }
 
 .divider-container {
-  height: 2px; 
-  background-color:black;
+  height: 2px;
+  background-color: black;
   width: 90%;
   margin: auto;
 }
