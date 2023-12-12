@@ -265,6 +265,8 @@ p {
 }
 
 .accordion-content {
+  display: flex;
+  flex-direction: column;
   padding: 15px;
 }
 
@@ -276,4 +278,32 @@ p {
 .card {
   border: none;
   border-radius: unset;
+}
+
+/* Filling layouts*/
+.accordion-content {
+  display: flex;
+}
+.resume-container-1 {
+  width: 60%;
+}
+
+.resume-box {
+margin-top: 20px;
+}
+
+.title-box {
+  display: flex;
+  background-color: rgb(243, 243, 245);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-left: 4px solid #3a66e6;
+  padding-left: 15px;
+  margin-bottom: 40px;
 }
