@@ -154,7 +154,8 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
-title h3 ,h3 {
+title h3 ,
+h3  {
   font-family: "Popins", sans-serif;
 }
 
@@ -288,14 +289,15 @@ p {
 /* Filling layouts*/
 .accordion-content {
   display: flex;
+  flex-direction: column;
 }
+
 .resume-container-1 {
   width: 60%;
 }
 
 .resume-box {
   margin-top: 15px;
-  margin-bottom: 30px;
 }
 
 .title-box {
@@ -309,7 +311,7 @@ div h5 {
   padding-left: 30px;
 }
 
-.content-box {
+.content-box  {
   display: flex;
   justify-content: space-between;
   height: 50px;
@@ -320,4 +322,8 @@ div h5 {
 
 .description {
   margin-bottom: 40px;
+}
+
+.content-box light-bl {
+  background-color: rgb(27, 201, 228);
 }
