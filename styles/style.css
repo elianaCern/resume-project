@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* Body style*/
 
 .body-wraper {
@@ -143,13 +144,17 @@ a:hover {
   justify-content: center;
 }
 
+.title {
+  margin-top: 10px;
+}
+
 h1 {
   font-size: 4rem;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
 
-title h3 {
+title h3 ,h3 {
   font-family: "Popins", sans-serif;
 }
 
@@ -289,7 +294,8 @@ p {
 }
 
 .resume-box {
-margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .title-box {
@@ -299,11 +305,19 @@ margin-top: 20px;
   margin-bottom: 40px;
 }
 
+div h5 {
+  padding-left: 30px;
+}
+
 .content-box {
   display: flex;
   justify-content: space-between;
   height: 50px;
   border-left: 4px solid #3a66e6;
   padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.description {
   margin-bottom: 40px;
 }
