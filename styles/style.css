@@ -154,8 +154,11 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
-title h3 ,
-h3  {
+title h3 {
+  font-family: "Popins", sans-serif;
+}
+
+h3 {
   font-family: "Popins", sans-serif;
 }
 
@@ -289,11 +292,13 @@ p {
 /* Filling layouts*/
 .accordion-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-right: 40px;
 }
 
 .resume-container-1 {
   width: 60%;
+  margin-right: 60px;
 }
 
 .resume-box {
@@ -307,15 +312,14 @@ p {
   margin-bottom: 40px;
 }
 
-div h5 {
-  padding-left: 30px;
+.title-box h5 {
+  padding-left: 20px;
 }
 
 .content-box  {
   display: flex;
   justify-content: space-between;
-  height: 50px;
-  border-left: 4px solid #3a66e6;
+  height: 40px;
   padding-left: 15px;
   margin-bottom: 30px;
 }
@@ -324,6 +328,39 @@ div h5 {
   margin-bottom: 40px;
 }
 
-.content-box light-bl {
-  background-color: rgb(27, 201, 228);
+
+.border-light-bl {
+  border-left: 4px solid rgb(27, 201, 228);
+}
+
+.border-bl {
+  border-left: 4px solid #3a66e6;
+}
+
+.resume-container-2 {
+  width: 40%;
+}
+
+/* Progress diagrams */
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.pr-title {
+  padding: 10px 10px 10px 0px;
+}
+
+.pr-title-container {
+  margin-bottom: 8px;
+}
+
+.pr-title-container h6 {
+  margin-bottom: 0;
+}
+
+.progress {
+  height: 25px;
 }
