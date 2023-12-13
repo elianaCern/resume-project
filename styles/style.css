@@ -73,7 +73,7 @@
 }
 
 a:hover {
-  color: #3a66e6;
+  color: rgb(58, 102, 230);
 }
 
 .profile-container {
@@ -102,7 +102,7 @@ a:hover {
   align-items: center;
   width: 100%;
   height: 60px;
-  background-color: #3a66e6;
+  background-color: rgb(58, 102, 230);
 }
 
 .profile-child-1 {
@@ -239,7 +239,7 @@ p {
 }
 
 .social-media:hover {
-  color: #3a66e6;
+  color: rgb(58, 102, 230);
 }
 
 .menu-icons {
@@ -334,7 +334,7 @@ p {
 }
 
 .border-bl {
-  border-left: 4px solid #3a66e6;
+  border-left: 4px solid rgb(58, 102, 230);
 }
 
 .resume-container-2 {
@@ -346,7 +346,7 @@ p {
 .progress-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
 .pr-title {
@@ -363,4 +363,51 @@ p {
 
 .progress {
   height: 25px;
+}
+
+.li-first {
+  color:  rgb(27, 201, 228);
+}
+
+.li-second {
+  color: rgb(255, 196, 85);
+}
+
+.li-third {
+  color: rgb(255, 117, 74);
+}
+
+.li-fourth {
+  color: rgb(249, 86, 86);
+}
+
+.li-fifth {
+  color:rgb(58, 102, 230);
+}
+
+.box-2 {
+  margin-top: 30px;
+}
+
+.lng-list-container {
+width: 40%;
+}
+
+.lng-english {
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+ }
+
+ .circle-box {
+  display: flex;
+  flex-direction: row;
+ }
+
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%; 
+  background-color: blue; 
+  margin-top: 8px;
 }
