@@ -393,21 +393,50 @@ p {
 width: 40%;
 }
 
-.lng-english {
+.lng-container {
 display: flex;
 flex-direction: row;
-justify-content:space-between;
+justify-content: space-between;
  }
 
  .circle-box {
   display: flex;
-  flex-direction: row;
  }
 
-.circle {
-  width: 8px;
-  height: 8px;
+.en-circle {
+  width: 9px;
+  height: 9px;
   border-radius: 50%; 
-  background-color: blue; 
+  background-color:rgb(58, 102, 230);
+  margin-right: 3px;
   margin-top: 8px;
 }
+
+.en-last {
+  background-color:rgb(58, 102, 230);
+  opacity: 0.3;
+}
+
+.pl-circle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%; 
+  background-color:rgb(27, 201, 228);
+  margin-right: 3px;
+  margin-top: 8px;
+}
+
+.pl-last {
+  background-color:rgb(27, 201, 228);
+  opacity: 0.3;
+}
+
+.ru-circle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%; 
+  background-color: rgb(255, 196, 85);
+  margin-right: 3px;
+  margin-top: 8px;
+}
+
