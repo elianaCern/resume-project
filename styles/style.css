@@ -341,6 +341,9 @@ p {
   width: 40%;
 }
 
+.resume-container-2 p {
+  color: black;
+}
 /* Progress diagrams */
 
 .progress-container {
@@ -392,6 +395,8 @@ p {
 .lng-list-container {
 width: 40%;
 }
+
+/* Language */
 
 .lng-container {
 display: flex;
