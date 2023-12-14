@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* Body style*/
 
 .body-wraper {
@@ -72,7 +73,7 @@
 }
 
 a:hover {
-  color: #3a66e6;
+  color: rgb(58, 102, 230);
 }
 
 .profile-container {
@@ -101,7 +102,7 @@ a:hover {
   align-items: center;
   width: 100%;
   height: 60px;
-  background-color: #3a66e6;
+  background-color: rgb(58, 102, 230);
 }
 
 .profile-child-1 {
@@ -143,6 +144,10 @@ a:hover {
   justify-content: center;
 }
 
+.title {
+  margin-top: 10px;
+}
+
 h1 {
   font-size: 4rem;
   font-weight: 700;
@@ -150,6 +155,10 @@ h1 {
 }
 
 title h3 {
+  font-family: "Popins", sans-serif;
+}
+
+h3 {
   font-family: "Popins", sans-serif;
 }
 
@@ -230,7 +239,7 @@ p {
 }
 
 .social-media:hover {
-  color: #3a66e6;
+  color: rgb(58, 102, 230);
 }
 
 .menu-icons {
@@ -265,6 +274,8 @@ p {
 }
 
 .accordion-content {
+  display: flex;
+  flex-direction: column;
   padding: 15px;
 }
 
@@ -276,4 +287,127 @@ p {
 .card {
   border: none;
   border-radius: unset;
+}
+
+/* Filling layouts*/
+.accordion-content {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+.resume-container-1 {
+  width: 60%;
+  margin-right: 60px;
+}
+
+.resume-box {
+  margin-top: 15px;
+}
+
+.title-box {
+  display: flex;
+  background-color: rgb(243, 243, 245);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.title-box h5 {
+  padding-left: 20px;
+}
+
+.content-box  {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+
+.border-light-bl {
+  border-left: 4px solid rgb(27, 201, 228);
+}
+
+.border-bl {
+  border-left: 4px solid rgb(58, 102, 230);
+}
+
+.resume-container-2 {
+  width: 40%;
+}
+
+/* Progress diagrams */
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.pr-title {
+  padding: 10px 10px 10px 0px;
+}
+
+.pr-title-container {
+  margin-bottom: 8px;
+}
+
+.pr-title-container h6 {
+  margin-bottom: 0;
+}
+
+.progress {
+  height: 25px;
+}
+
+.li-first {
+  color:  rgb(27, 201, 228);
+}
+
+.li-second {
+  color: rgb(255, 196, 85);
+}
+
+.li-third {
+  color: rgb(255, 117, 74);
+}
+
+.li-fourth {
+  color: rgb(249, 86, 86);
+}
+
+.li-fifth {
+  color:rgb(58, 102, 230);
+}
+
+.box-2 {
+  margin-top: 30px;
+}
+
+.lng-list-container {
+width: 40%;
+}
+
+.lng-english {
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+ }
+
+ .circle-box {
+  display: flex;
+  flex-direction: row;
+ }
+
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%; 
+  background-color: blue; 
+  margin-top: 8px;
 }
