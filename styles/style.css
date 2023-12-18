@@ -446,5 +446,40 @@ justify-content: space-between;
   margin-top: 8px;
 }
 
+/* Contacts */
+
+.contacts-container {
+  background-color: #f3f3f5;
+  margin-left: 16px;
+  flex: 1;
+  padding: 48px;
+}
+
+.contacts-container h2 {
+  margin-bottom: 16px;
+}
+
+.contacts-map-container {
+  margin-right: 16px;
+  flex: 1;
+}
+
+.contact-item {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.contacts-data {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.contacts-data p {
+  margin: 0;
+  color: #ff754a;
+}
 
 
